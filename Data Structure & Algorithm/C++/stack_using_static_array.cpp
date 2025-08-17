@@ -4,7 +4,7 @@ int Size = 50,Stack_Size=0;
 int *Stack = new int[Size]();
 void push(int value)
 {
-    if(Stack_Size>Size)
+    if(Stack_Size>=Size)
     {
         cout<<"Cannot push, Stack is full."<<endl;
     }
