@@ -71,6 +71,7 @@ int main()
             return 0;
         default:
             cout << "Size of Stack Currently: " << Stack_size << "\n";
+            cout<<endl;
             break;
         }
     }
